@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+label {
+    margin-top: 20px;
+    font-size: 1.8rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #14213D;
+}
+
+header {
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    height: 15%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+}
+
+#login {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    background-color: #FCA311;
+}
+
+.login {
+    border-radius: 10px;
+}
+
+#logo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+input {
+    font-size: 1.3rem;
+    height: 55px;
+    width: 355px;
+}
+
+#botao_Login {
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 35px;
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+#botao_Login:hover {
+    transform: translate(0, -5px);
+    transition: 300ms;
+}
+
+#botao_Login:not(:hover) {
+    transform: translate(0, 0);
+    transition: 300ms;
+}
+

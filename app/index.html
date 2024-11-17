@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>FreeVaga</title>
+</head>
+
+<body>
+    <header>
+        <div id="header_superior">
+            <img id="logo_header" src="../assets/logo_1.jpg" alt="">
+            <div id="sair">
+                <a href="login.html">Sair</a>
+            </div>
+        </div>
+        <div id="header_inferior">
+            <div class="input-wrapper">
+                <input id="pesquisa-cupom" class="pesquisa" type="text" placeholder="Pesquisar por cupom">
+                <img src="../assets/loupe.png" alt="Lupa" class="icon">
+            </div>
+            <div class="input-wrapper">
+                <input id="pesquisa-placa" class="pesquisa" type="text" placeholder="Pesquisar por placa">
+                <img src="../assets/loupe.png" alt="Lupa" class="icon">
+            </div>
+            <div class="input-wrapper">
+                <input id="pesquisa-descricao" class="pesquisa" type="text" placeholder="Pesquisar por descrição">
+                <img src="../assets/loupe.png" alt="Lupa" class="icon">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="tabela">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Cupom</th>
+                        <th>Entrada</th>
+                        <th>Placa</th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody id="estacionamento"></tbody>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <div class="menu_footer">
+            <input type="text" class="input_footer" id="cupom" placeholder="Adicione um cupom" autocomplete="off">
+            <input type="text" class="input_footer" id="placa" placeholder="Placa" autocomplete="off">
+            <input type="text" class="input_footer" id="descricao" placeholder="Descrição" autocomplete="off">
+            <button class="btn_footer_laranja" id="adicionar">Adicionar</button>
+            <button class="btn_footer_laranja" id="cancelar">Cancelar</button>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>

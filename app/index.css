@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 20%;
+}
+
+body {
+    background-color: #14213D;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 15%;
+    width: 100%;
+}
+
+.input_footer {
+    margin: 5px;
+    font-size: 1.1rem;
+    text-align: center;
+    height: 60px;
+    width: 400px;    
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #FFF;
+}
+
+#header_superior {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #FCA311;
+    width: 100%;
+    height: 7.5%;
+    align-items: center;
+}
+
+#sair {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-right: 10px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+#sair:hover {
+    transform: translate(0, -3px);
+    transition: 300ms;
+}
+
+#sair:not(:hover) {
+    transform: translate(0, 0);
+    transition: 300ms;
+}
+
+#header_superior a {
+    font-size: 1.1rem;
+}
+
+#header_inferior {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.pesquisa {
+    width: 28%;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+#logo_header {
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 6.5%;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+#logo_header:hover {
+    transform: rotate(360deg);
+    transition: 1200ms;
+}
+
+#logo_header:not(:hover) {
+    transform: rotate(0deg);
+    transition: 1000ms;
+}
+
+#tabela {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    height: 730px;
+    width: 95%;
+    font-size: 1.1rem;
+    background-color: #E5E5E5;
+    overflow-y: auto;
+}
+
+table, td {
+    width: 99.8%;
+    border: 3px solid #000000;
+}
+
+th {
+    border: 3px solid #000000;
+}
+
+td {
+    text-align: center;
+    height: 30px;
+    width: 20%;
+}
+
+.menu_footer {
+    border-radius: 10px;
+    margin-top: 5px;
+    width: 95%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn_footer_laranja {
+    margin: 5px;
+    font-size: 1.1rem;
+    height: 60px;
+    width: 400px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #FCA311;
+}
+
+.btn_footer_laranja:hover {
+    transform: translate(0, -3px);
+    transition: 300ms;
+}
+
+.btn_footer_laranja:not(:hover) {
+    transform: translate(0, 0);
+    transition: 300ms;
+}
+
+.delete {
+    cursor: pointer;
+    background-color: #ffffff;
+    height: 30px;
+    width: 100%;
+}
+
+.input-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 28%;
+}
+
+.input-wrapper input.pesquisa {
+    width: 100%;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+.input-wrapper .icon {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    height: 20px;
+    width: 20px;
+    pointer-events: none;
+}
